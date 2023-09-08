@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h1,.lastpara{
+   background-image: url("image1.png"); 
+   min-height: 100vh;
+}
+.h1 p, .lastpara p{
+    position: relative;
+    top: 400px;
+    left: 450px;
+    background-color: #313534;
+    display: inline;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: white;
+    padding: 15px;
+}
+.h2 p{
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    top: 200px;
+    font-size: 50px;
+    left: 550px;    
+    display: inline-block;
+    background-color: transparent;
+    /* box-shadow: 2px 20px 2px 2px; */
+
+}
+.h3 p{
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    top: 200px;
+    font-size: 50px;
+    left: 450px;    
+
+}
+.h1,.h2,.h3,.lastpara{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.h2{
+    background-image: url("image2.png"); 
+    min-height: 50vh;     
+}
+.h3{
+    background-image: url("image3.png"); 
+    min-height: 50vh;     
+}
+.para1,.para2,.para3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #313534;
+    color: white;
+    padding: 100px;
+}
+.para1 h2,.para2 h2,.para3 h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
